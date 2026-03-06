@@ -1,38 +1,35 @@
-/* Navbar */
-.custom-navbar {
-    background-color: #1e3c72;
+body{
+margin:0;
+height:100vh;
+background-image:url("https://images.unsplash.com/photo-1507842217343-583bb7270b66");
+background-size:cover;
+background-position:center;
+color:white;
 }
 
-.nav-link {
-    color: white !important;
-    margin-left: 15px;
+.custom-navbar{
+background:#2c3e50;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
+.overlay{
+background:rgba(0,0,0,0.6);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
 }
 
-/* Hero Section */
-.hero-section {
-    height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('https://images.unsplash.com/photo-1507842217343-583bb7270b66') center/cover no-repeat;
+.profile-box{
+background:rgba(255,255,255,0.1);
+padding:30px;
+border-radius:12px;
 }
 
-/* Section Title */
-.section-title {
-    text-align: center;
-    margin-bottom: 40px;
-    font-weight: bold;
-}
-.dashboard-card {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    transition: 0.3s;
-}
-
-.dashboard-card:hover {
-    transform: scale(1.05);
+.profile-img{
+width:120px;
+height:120px;
+border-radius:50%;
+border:3px solid white;
+margin-bottom:15px;
 }
